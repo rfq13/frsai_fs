@@ -1,0 +1,40 @@
+[
+  {
+    "name": "Dashboard",
+    "link": "/dashboard",
+    "icon": "mdi-chart-pie",
+    "type": "menu",
+    "children": [],
+    "isAdmin": true,
+    "isUser": true,
+    "isSuperAdmin": true
+  },
+  {
+    "name": "Master Data",
+    "link": "",
+    "icon": "",
+    "type": "divider",
+    "children": [],
+    "isAdmin": true,
+    "isUser": true,
+    "isSuperAdmin": true
+  },
+  {
+    "name": "Master Data",
+    "link": "#",
+    "icon": "mdi-database",
+    "type": "menu",
+    "isAdmin": true,
+    "isSuperAdmin": true,
+    "children": [
+      {
+        "name": "Master Rekrut",
+        "link": "/master/rekrut",
+        "icon": "mdi-record",
+        "type": "menu",
+        "children": [],
+        "isSuperAdmin": true
+      }
+    ]
+  }
+]

@@ -1,0 +1,234 @@
+[
+  {
+    "name": "Dashboard",
+    "link": "/dashboard",
+    "icon": "mdi-chart-pie",
+    "type": "menu",
+    "children": [],
+    "isAdmin": true,
+    "isUser": true,
+    "isSuperAdmin": true
+  },
+  {
+    "name": "Master Data",
+    "link": "",
+    "icon": "",
+    "type": "divider",
+    "children": [],
+    "isAdmin": true,
+    "isUser": true,
+    "isSuperAdmin": true
+  },
+  {
+    "name": "Master Data",
+    "link": "#",
+    "icon": "mdi-database",
+    "type": "menu",
+    "isAdmin": true,
+    "isSuperAdmin": true,
+    "children": [
+      {
+        "name": "Master Admin",
+        "link": "/master/admin",
+        "icon": "mdi-record",
+        "type": "menu",
+        "children": [],
+        "isSuperAdmin": true
+      },
+      {
+        "name": "Master User",
+        "link": "/master/user",
+        "icon": "mdi-record",
+        "type": "menu",
+        "children": [],
+        "isAdmin": true
+      },
+      {
+        "name": "Master Company",
+        "link": "/master/company",
+        "icon": "mdi-record",
+        "type": "menu",
+        "children": [],
+        "isSuperAdmin": true
+      },
+      {
+        "name": "Master Plant",
+        "link": "/master/plant",
+        "icon": "mdi-record",
+        "type": "menu",
+        "children": [],
+        "isSuperAdmin": true
+      },
+      {
+        "name": "Master Division",
+        "link": "/master/division",
+        "icon": "mdi-record",
+        "type": "menu",
+        "children": [],
+        "isAdmin": true
+      },
+      {
+        "name": "Master Department",
+        "link": "/master/department",
+        "icon": "mdi-record",
+        "type": "menu",
+        "children": [],
+        "isAdmin": true
+      },
+      {
+        "name": "Master Shop",
+        "link": "/master/shop",
+        "icon": "mdi-record",
+        "type": "menu",
+        "children": [],
+        "isAdmin": true
+      },
+      {
+        "name": "Master Line",
+        "link": "/master/line",
+        "icon": "mdi-record",
+        "type": "menu",
+        "children": [],
+        "isAdmin": true
+      },
+      {
+        "name": "Master Cell",
+        "link": "/master/cell",
+        "icon": "mdi-record",
+        "type": "menu",
+        "children": [],
+        "isAdmin": true
+      },
+      {
+        "name": "Master Machine ",
+        "link": "/master/machine",
+        "icon": "mdi-record",
+        "type": "menu",
+        "children": [],
+        "isAdmin": true
+      },
+      {
+        "name": "Master Product Type ",
+        "link": "/master/product-type",
+        "icon": "mdi-record",
+        "type": "menu",
+        "children": [],
+        "isAdmin": true
+      },
+
+      {
+        "name": "Master Type Machine ",
+        "link": "/master/type-machine",
+        "icon": "mdi-record",
+        "type": "menu",
+        "children": [],
+        "isAdmin": true
+      },
+
+      {
+        "name": "Master Sub Machine ",
+        "link": "/master/sub-machine",
+        "icon": "mdi-record",
+        "type": "menu",
+        "children": [],
+        "isAdmin": true
+      },
+      {
+        "name": "Master Special Tools ",
+        "link": "/master/special-tools",
+        "icon": "mdi-record",
+        "type": "menu",
+        "children": [],
+        "isAdmin": true
+      },
+      {
+        "name": "Master Spare Part ",
+        "link": "/master/spare-part",
+        "icon": "mdi-record",
+        "type": "menu",
+        "children": [],
+        "isAdmin": true
+      },
+
+      {
+        "name": "Master JIS ",
+        "link": "/master/jis",
+        "icon": "mdi-record",
+        "type": "menu",
+        "children": [],
+        "isAdmin": true
+      },
+
+      {
+        "name": "Master Ledger Method ",
+        "link": "/master/ledger-method",
+        "icon": "mdi-record",
+        "type": "menu",
+        "children": [],
+        "isAdmin": true
+      }
+    ]
+  },
+  {
+    "name": "Master TPM Ledger ",
+    "link": "/master/ledger-tpm",
+    "icon": "mdi-dresser-outline",
+    "type": "menu",
+    "children": [],
+    "isAdmin": true
+  },
+  {
+    "name": "Master TPM Ledger Approval",
+    "link": "/master/ledger-tpm/approval",
+    "icon": "mdi-check-decagram",
+    "type": "menu",
+    "children": [],
+    "isAdmin": true
+  },
+  {
+    "name": "Planning",
+    "link": "/planning",
+    "icon": "mdi-chart-pie",
+    "type": "menu",
+    "children": [],
+    "isAdmin": true,
+    "isUser": true
+  },
+
+  {
+    "name": "TPM Monitoring",
+    "link": "/monitoring",
+    "icon": "mdi-chart-gantt",
+    "type": "menu",
+    "children": [],
+    "isAdmin": true,
+    "isUser": true
+  },
+  {
+    "name": "TPM Finding",
+    "link": "/finding",
+    "icon": "mdi-playlist-remove",
+    "type": "menu",
+    "children": [],
+    "isAdmin": true,
+    "isUser": true
+  },
+  {
+    "name": "TPM Finish Ratio",
+    "link": "/tpm-finish-ratio",
+    "icon": "mdi-cube-send",
+    "type": "menu",
+    "children": [],
+    "isAdmin": true,
+    "isUser": true
+  },
+  {
+    "name": "Input Counterbase",
+    "link": "/counterbase",
+    "icon": "mdi-format-rotate-90",
+    "type": "menu",
+    "children": [],
+    "isAdmin": true,
+    "isUser": true
+  }
+]

@@ -1,0 +1,46 @@
+// Globals
+$border-radius-root: 4px;
+$font-size-root: 14px;
+
+// Elevation
+$shadow-key-umbra-opacity: rgba(0, 0, 0, 0.07);
+$shadow-key-penumbra-opacity: rgba(0, 0, 0, 0.06);
+$shadow-key-ambient-opacity: rgba(0, 0, 0, 0.05);
+
+
+$data-table-regular-header-font-size: 12px !default;
+$data-table-regular-row-font-size: 12px !default;
+$headings: (
+  'title': (
+    'size': 22px,
+    'line-height': 32px,
+  ),
+  'subtitle-1': (
+    'size': 20px,
+    'line-height': 24px,
+  ),
+  'subtitle-2': (
+    'size': 18px,
+    'line-height': 24px,
+  ),
+  'body-1': (
+    'size': 16px,
+    'line-height': 14px,
+  ),
+  'body-2': (
+    'size': 13px,
+    'line-height': 14px,
+  ),
+  'caption': (
+    'size': 12px,
+    'line-height': 22px,
+  ),
+  'headline': (
+    'size': 24px,
+    'line-height': 34px,
+  ),
+  'h1': (
+    'size': 64px,
+    'line-height': 68px,
+  ),
+);
